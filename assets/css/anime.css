@@ -1,0 +1,134 @@
+/* search bar */
+.search {
+    margin: 90px 190px;
+}
+
+.search-bar {
+    border: 0px solid black;
+    padding: 7px 10px;
+    border-radius: 3px;
+    color: #18c1f0;
+    width: 90%;
+}
+
+.search-on-search-bar {
+    padding: 0px 0px 5px 1px;
+    width: 200px;
+}
+
+.bi-credit-card-fill {
+    margin: 0px 0px 0px 55px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.bi-credit-card-fill:hover {
+    color: #18c1f0;
+}
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #EDF1F5;
+}
+
+
+
+p {
+    margin: 0;
+}
+/* menu */
+div.menu {
+    display: flex;
+    background-color: #2B2D42;
+}
+
+/* menu top left */
+div.menu-left {
+    display: flex;
+    flex: 1;
+}
+
+div.content-menu-left {
+    padding: 0px 200px;
+    display: flex;
+    font-family: Roboto, sans-serif;
+    cursor: pointer;
+}
+
+p.animene-white {
+    font-size: 20px;
+    color: white;
+    align-self: center;
+}
+
+p.animene-blue {
+    font-size: 20px;
+    color: #18c1f0;
+    align-self: center;
+}
+
+/* menu top center */
+div.menu-center {
+    display: flex;
+    color: rgb(255, 255, 255);
+    flex: 2;
+}
+
+.menu-center .content-menu-center,
+.menu-right .content-menu-right {
+    text-decoration: none;
+    color: white;
+}
+
+a.content-menu-center {
+    padding: 21px 15px;
+    color: white;
+    align-self: center;
+}
+
+a.content-menu-center:hover {
+    color: #18c1f0;
+}
+
+a {
+    text-decoration: none;
+}
+.menu-content {
+    margin-right: 0;
+    margin-left: 0;
+    justify-content: center;
+    padding: 0px 130px;
+}
+
+img {
+    width: 200px;
+    height: 293px;
+}
+
+.content:hover {
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+}
+
+.content {
+    color: rgb(131, 131, 131);
+}
+
+.fix {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0px 0px 0px 30px;
+}
+
+#name-movie {
+    word-wrap: break-word;
+    width: 200px;
+}
+
+.head-menu-content {
+    padding: 0px 0px 0px 190px;
+    width: 700px;
+    margin: 0px;
+    font-size: 22px;
+}
