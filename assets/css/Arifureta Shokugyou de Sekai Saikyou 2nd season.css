@@ -211,6 +211,7 @@ div.menu-right {
 .picture {
     width: 155px;
     height: 235px;
+    border-radius: 5px;
 }
 
 /* link */

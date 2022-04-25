@@ -215,6 +215,7 @@ div.menu-right {
 .picture {
     width: 155px;
     height: 235px;
+    border-radius: 5px;
 }
 
 /* link */
@@ -228,7 +229,7 @@ div.menu-right {
 }
 
 .id-name-movie {
-    width: 170px;
+    width: 155px;
     height: auto;
     font-size: 14px;
 }
