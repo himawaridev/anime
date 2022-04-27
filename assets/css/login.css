@@ -1,0 +1,158 @@
+p {
+    margin: 0;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #EDF1F5;
+}
+
+/* menu */
+div.menu {
+    display: flex;
+    background-color: #2B2D42;
+}
+
+/* menu top left */
+div.menu-left {
+    display: flex;
+    flex: 1;
+}
+
+div.content-menu-left {
+    padding: 0px 200px;
+    display: flex;
+    font-family: Roboto, sans-serif;
+    cursor: pointer;
+}
+
+p.animene-white {
+    font-size: 20px;
+    color: white;
+    align-self: center;
+}
+
+p.animene-blue {
+    font-size: 20px;
+    color: #18c1f0;
+    align-self: center;
+}
+
+/* menu top center */
+div.menu-center {
+    display: flex;
+    color: rgb(255, 255, 255);
+    flex: 2;
+}
+
+.menu-center .content-menu-center,
+.menu-right .content-menu-right {
+    text-decoration: none;
+    color: white;
+}
+
+a.content-menu-center {
+    padding: 21px 15px;
+    color: white;
+    align-self: center;
+}
+
+a.content-menu-center:hover {
+    color: #18c1f0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* menu top right */
+div.menu-right {
+    display: flex;
+    color: aliceblue;
+    flex: 1;
+    align-self: center;
+}
+
+.log-in {
+    border: 2px solid #18c1f0;
+    border-radius: 3px;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    align-self: center;
+}
+
+.sign-up {
+    border-radius: 3px;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #18c1f0;
+    align-self: center;
+}
+/* content login */
+.content-login {
+    display:flex;
+    margin:70px 0px 0px 0px;
+}
+.content-login-left {
+    flex:3;
+}
+.content-login-center {
+    flex:2; 
+    background-color: white;
+    height:570px;
+    border-radius:5px;
+}
+.content-login-right {
+    flex:3;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* content-footer */
+.footer {
+    background-color: #2B2D42;
+    height: 280px;
+    padding: 50px;
+    margin: 50px 0px 0px 0px;
+
+}
+
+.content-footer {
+    width: 80%;
+    color: white;
+    margin: 0px 140px;
+    cursor: pointer;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+.content-footer-menu:hover {
+    color: #18c1f0;
+    text-decoration: none;
+}
+
+.content-footer-menu {
+    color: white;
+}
