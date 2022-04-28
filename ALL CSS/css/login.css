@@ -153,11 +153,12 @@ div.menu-right {
     padding: 5px 0px 0px 0px;
     font-weight: 900;
     font-size: 15px;
+    cursor: pointer;
 }
-
+/* restart password */
 .restart-password {
-    margin: 0px 0px 100px 220px;
-    font-size: 15px;
+    margin: 0px 0px 100px 225px;
+    font-size: 14px;
 
 }
 
@@ -170,10 +171,11 @@ div.menu-right {
     text-decoration: none;
     color: #2B2D42;
 }
-.suport {
+/* support */
+.support {
     margin: 0px 50px 0px 60px;
 }
-.suport {
+.support {
     font-size: 15px;
 }
 .sign-up-now {
