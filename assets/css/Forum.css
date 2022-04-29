@@ -136,6 +136,7 @@ div.menu-right {
     background-color: #18c1f0;
     padding:5px 20px 5px 20px;
     border-radius:5px;
+    border: 2px solid black;
     margin: 30px 0px 0px 0px;
 }
 .link-back-to-home:hover {
