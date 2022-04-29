@@ -92,111 +92,91 @@ div.menu-right {
     align-self: center;
 }
 
-/* content login */
-.content-login {
+/* content all */
+.content-all {
     display: flex;
-    margin: 70px 0px 0px 0px;
+    height: 400px;
 }
 
-.content-login-left {
-    flex: 3;
+/* content left */
+.content-left {
+    flex: 1;
 }
 
-/* content login center */
-.content-login-center {
-    flex: 2;
-    background-color: white;
-    height: 570px;
-    border-radius: 5px;
+/* content center */
+.content-center {
+    flex: 1;
+    margin: 90px 0px 0px 0px;
 }
 
-/* title top */
-.title-top {
-    text-align: center;
-    color: #2B2D42;
-    margin: 30px 0px 50px 0px;
-    font-size: 25px;
+.coming-soon {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
     font-weight: 900;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 15px;
 }
 
-.email {
-    margin: 30px 50px 0px 50px;
-    font-weight: 900;
+/* note coming soon */
+.note-coming-soon {
+    display: flex;
+    justify-content: center;
+    margin:50px 0px 0px 0px;
 }
+/* back to home */
+.back-to-home {
+    display: flex;
+    justify-content: center;
 
-.search-email-pass-word {
-    margin: 0px 50px 25px 50px;
 }
-
-.search-bar {
-    width: 285px;
-    height: 35px;
-    border-radius: 5px;
-    border: none;
-    background-color: #EDF1F5;
-}
-
-.password {
-    margin: 30px 50px 0px 50px;
-    font-weight: 900;
-}
-
-/* title bottom */
-.title-bottom {
+/* link back to home */
+.link-back-to-home {
+    color:white;
     background-color: #18c1f0;
-    width: 285px;
-    height: 35px;
-    border-radius: 5px;
-    text-align: center;
-    margin: 30px 50px 5px 50px;
-    color: white;
-    padding: 5px 0px 0px 0px;
-    font-weight: 900;
-    font-size: 15px;
-    cursor: pointer;
+    padding:5px 20px 5px 20px;
+    border-radius:5px;
+    margin: 30px 0px 0px 0px;
+}
+.link-back-to-home:hover {
+    text-decoration:none;
+    color:white;
 }
 
-/* restart password */
-.restart-password {
-    margin: 0px 0px 50px 225px;
-    font-size: 14px;
 
+
+
+
+
+
+/* content right */
+.content-right {
+    flex: 1;
 }
 
-.link-restart-password {
-    color: #2B2D42;
 
-}
 
-.link-restart-password:hover {
-    text-decoration: none;
-    color: #2B2D42;
-}
 
-/* support */
-.support {
-    margin: 0px 50px 0px 80px;
-}
 
-.support {
-    font-size: 15px;
-}
 
-.sign-up-now {
-    color: #18c1f0;
-}
 
-.sign-up-now:hover {
-    text-decoration: none;
-    color: #18c1f0;
 
-}
 
-/* content login left */
 
-.content-login-right {
-    flex: 3;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* content-footer */
 .footer {
