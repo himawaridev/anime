@@ -1,19 +1,522 @@
-<div class="tools">
-    <div class="tools-left"></div>
-    <div class="tools-right">
-        <div class="content-tools-left">
-            <div class="id-name-tools">Average Score</div>
-            <i class="bi bi-chevron-down"></i>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="assets/images/anime dung hoang .png">
+    <title>ANIME</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/manga.css">
+</head>
+
+<body>
+    <!-- menu -->
+    <div class="menu">
+        <!-- menu left -->
+        <div class="menu-left">
+            <div class="content-menu-left">
+                <p class="animene-white">ANIME</p>
+                <p class="animene-blue">NE</p>
+            </div>
         </div>
-        <div class="content-tools-right">
-            <i class="bi bi-grid-1x2-fill"></i>
-            <i class="bi bi-grid-fill"></i>
-            <i class="bi bi-grid-3x3-gap-fill"></i>
+        <!-- menu center -->
+        <div class="menu-center">
+            <a class="content-menu-center" href="https://animene.vercel.app/search/anime"><i
+                    class="bi bi-caret-right-fill"></i> Anime</a>
+            <a class="content-menu-center" href="https://animene.vercel.app/search/manga"><i class="bi bi-book"></i>
+                Manga</a>
+            <a class="content-menu-center" href="https://animene.vercel.app/search/staff"><i
+                    class="bi bi-person-badge-fill"></i> Staff</a>
+            <a class="content-menu-center" href="https://animene.vercel.app/search/characters"><i
+                    class="bi bi-person-badge"></i> Characters</a>
+            <a class="content-menu-center" href="Forum.html"><i class="bi bi-twitter"></i>
+                Forum</a>
+        </div>
+        <!-- menu right -->
+        <div class="menu-right">
+            <a class="content-menu-right log-in" href="login.html">Login</a>
+            <a class="content-menu-right sign-up" href="signup.html">Sign Up</a>
         </div>
     </div>
-</div>
-<i class="bi bi-grid-1x2-fill"></i>
-    <i class="bi bi-grid-fill"></i>
-    <i class="bi bi-grid-3x3-gap-fill"></i>
-    <i class="bi bi-chevron-down"></i>
-    
+    <!-- search -->
+    <div class="search">
+        <p class="search-on-search-bar">Search</p>
+        <input type="search" class="search-bar">
+        <i class="bi bi-credit-card-fill"></i>
+    </div>
+    <div class="head-menu-content">
+        <!-- trending now -->
+        <p>TRENDING NOW</p>
+    </div><br>
+    <div class="row menu-content">
+        <div class="col-xl-2 fix"><a class="content" href="https://animene.vercel.app/manga/104494">
+                <img src="assets/images/menu top/anime/line 1/Wu Lian Dian Feng.jpg"
+                    alt="error">
+                <p id="name-movie">Wu Lian Dian Feng</p>
+            </a>
+        </div>
+        <div class="col-xl-2 fix"><a class="content" href="https://animene.vercel.app/manga/30013">
+                <img src="assets/images/menu top/anime/line 1/ONE PIECE.jpg"
+                    alt="error">
+                <p id="name-movie">ONE PIECE</p>
+            </a>
+        </div>
+        <div class="col-xl-2 fix"><a class="content" href="https://animene.vercel.app/manga/111233">
+                <img src="assets/images/menu top/anime/line 1/Yofukashi no Uta.jpg"
+                    alt="error">
+                <p id="name-movie">Yofukashi no Uta</p>
+            </a>
+        </div>
+        <div class="col-xl-2 fix"><a class="content" href="https://animene.vercel.app/manga/86635">
+                <img src="assets/images/menu top/anime/line 1/Kaguya-sama wa Kokurasetai Tensaitachi no Renai Zunousen.png"
+                    alt="error">
+                <p id="name-movie">Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen</p>
+            </a>
+        </div>
+        <div class="col-xl-2 fix"><a class="content" href="https://animene.vercel.app/manga/117195">
+                <img src="assets/images/menu top/anime/line 1/[Oshi no Ko].png"
+                    alt="error">
+                <p id="name-movie">[Oshi no Ko]</p>
+            </a>
+        </div>
+    </div>
+    <!--all the time -->
+    <div class="head-menu-content">
+        <p>ALL TIME POPULAR</p>
+    </div><br>
+    <div class="row menu-content">
+        <div class="col-sm-2 fix"><a class="content" href="https://animene.vercel.app/anime/16498">
+                <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx16498-m5ZMNtFioc7j.png"
+                    alt="error">
+                <p id="name-movie">Shingeki no Kyojin</p>
+            </a>
+        </div>
+        <div class="col-sm-2 fix"><a class="content" href="https://animene.vercel.app/anime/101922">
+                <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101922-PEn1CTc93blC.jpg"
+                    alt="error">
+                <p id="name-movie">Kimetsu no Yaiba</p>
+            </a>
+        </div>
+        <div class="col-sm-2 fix"><a class="content" href="https://animene.vercel.app/anime/1535">
+                <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1535-lawCwhzhi96X.jpg"
+                    alt="error">
+                <p id="name-movie">DEATH NOTE</p>
+            </a>
+        </div>
+        <div class="col-sm-2 fix"><a class="content" href="https://animene.vercel.app/anime/21459">
+                <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21459-oZMZ7JwS5Sxq.jpg"
+                    alt="error">
+                <p id="name-movie">Boku no Hero Academia</p>
+            </a>
+        </div>
+        <div class="col-sm-2 fix"><a class="content" href="https://animene.vercel.app/anime/11061">
+                <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11061-sIpBprNRfzCe.png"
+                    alt="error">
+                <p id="name-movie">HUNTER×HUNTER (2011)</p>
+            </a>
+        </div>
+    </div>
+    <!-- popular manhwa -->
+    <div class="head-menu-content">
+        <p>POPULAR MANHWA</p>
+    </div><br>
+    <div class="row menu-content">
+        <div class="col-sm-2 fix"><a class="content" href="https://animene.vercel.app/anime/16498">
+                <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx16498-m5ZMNtFioc7j.png"
+                    alt="error">
+                <p id="name-movie">Shingeki no Kyojin</p>
+            </a>
+        </div>
+        <div class="col-sm-2 fix"><a class="content" href="https://animene.vercel.app/anime/101922">
+                <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101922-PEn1CTc93blC.jpg"
+                    alt="error">
+                <p id="name-movie">Kimetsu no Yaiba</p>
+            </a>
+        </div>
+        <div class="col-sm-2 fix"><a class="content" href="https://animene.vercel.app/anime/1535">
+                <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1535-lawCwhzhi96X.jpg"
+                    alt="error">
+                <p id="name-movie">DEATH NOTE</p>
+            </a>
+        </div>
+        <div class="col-sm-2 fix"><a class="content" href="https://animene.vercel.app/anime/21459">
+                <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21459-oZMZ7JwS5Sxq.jpg"
+                    alt="error">
+                <p id="name-movie">Boku no Hero Academia</p>
+            </a>
+        </div>
+        <div class="col-sm-2 fix"><a class="content" href="https://animene.vercel.app/anime/11061">
+                <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11061-sIpBprNRfzCe.png"
+                    alt="error">
+                <p id="name-movie">HUNTER×HUNTER (2011)</p>
+            </a>
+        </div>
+    </div>
+    <div class="summary-content-menu">
+        <div class="summary-content-menu-left">
+            <a class="link-picture" href="https://animene.vercel.app/anime/114129">
+                <img class="font-size-img"
+                    src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx114129-TI4mHjFNI0E0.png"></a>
+        </div>
+        <div class="summary-content-menu-center">
+            <div class="summary-content-menu-center-top">
+                <a class="top-100-anime-hot top-100-anime-hot-topic"
+                    href="https://animene.vercel.app/anime/114129">Gintama: THE FINAL</a>
+            </div>
+            <div class="summary-content-menu-center-bottom">
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Action">action</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Comedy">comedy</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Drama">drama</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Sci-Fi">sci-fi</a>
+            </div>
+        </div>
+        <div class="summary-content-menu-right">
+            <p class="summary-content-menu-right-feed-back"><i class="bi bi-emoji-smile"></i>&nbsp;92%</p>
+            <p class="summary-content-menu-right-feed-back">
+                Movie<br>
+                1 episodes</p>
+            <p class="summary-content-menu-right-feed-back">
+                Winter 2021<br>
+                Finished</p>
+        </div>
+    </div>
+    <div class="summary-content-menu">
+        <div class="summary-content-menu-left">
+            <a class="link-picture" href="https://animene.vercel.app/anime/124194">
+                <img class="font-size-img"
+                    src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx124194-r9MueM46SgLV.jpg"></a>
+        </div>
+        <div class="summary-content-menu-center">
+            <div class="summary-content-menu-center-top">
+                <a class="top-100-anime-hot top-100-anime-hot-topic"
+                    href="https://animene.vercel.app/anime/124194">Fruits Basket: The Final</a>
+            </div>
+            <div class="summary-content-menu-center-bottom">
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Action">action</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Comedy">comedy</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Drama">drama</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Sci-Fi">sci-fi</a>
+            </div>
+        </div>
+        <div class="summary-content-menu-right">
+            <p class="summary-content-menu-right-feed-back"><i class="bi bi-emoji-smile"></i>&nbsp;92%</p>
+            <p class="summary-content-menu-right-feed-back">
+                Movie<br>
+                1 episodes</p>
+            <p class="summary-content-menu-right-feed-back">
+                Winter 2021<br>
+                Finished</p>
+        </div>
+    </div>
+    <div class="summary-content-menu">
+        <div class="summary-content-menu-left">
+            <a class="link-picture" href="https://animene.vercel.app/anime/20996">
+                <img class="font-size-img"
+                    src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20996-qYCvgsFuF9wk.png"></a>
+        </div>
+        <div class="summary-content-menu-center">
+            <div class="summary-content-menu-center-top">
+                <a class="top-100-anime-hot top-100-anime-hot-topic"
+                    href="https://animene.vercel.app/anime/20996">Gintama°</a>
+            </div>
+            <div class="summary-content-menu-center-bottom">
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Action">action</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Comedy">comedy</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Drama">drama</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Sci-Fi">sci-fi</a>
+            </div>
+        </div>
+        <div class="summary-content-menu-right">
+            <p class="summary-content-menu-right-feed-back"><i class="bi bi-emoji-smile"></i>&nbsp;92%</p>
+            <p class="summary-content-menu-right-feed-back">
+                Movie<br>
+                1 episodes</p>
+            <p class="summary-content-menu-right-feed-back">
+                Winter 2021<br>
+                Finished</p>
+        </div>
+    </div>
+    <div class="summary-content-menu">
+        <div class="summary-content-menu-left">
+            <a class="link-picture" href="https://animene.vercel.app/anime/104578">
+                <img class="font-size-img"
+                    src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104578-LaZYFkmhinfB.jpg"></a>
+        </div>
+        <div class="summary-content-menu-center">
+            <div class="summary-content-menu-center-top">
+                <a class="top-100-anime-hot top-100-anime-hot-topic"
+                    href="https://animene.vercel.app/anime/104578">Shingeki no Kyojin 3 Part 2</a>
+            </div>
+            <div class="summary-content-menu-center-bottom">
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Action">action</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Comedy">comedy</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Drama">drama</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Sci-Fi">sci-fi</a>
+            </div>
+        </div>
+        <div class="summary-content-menu-right">
+            <p class="summary-content-menu-right-feed-back"><i class="bi bi-emoji-smile"></i>&nbsp;92%</p>
+            <p class="summary-content-menu-right-feed-back">
+                Movie<br>
+                1 episodes</p>
+            <p class="summary-content-menu-right-feed-back">
+                Winter 2021<br>
+                Finished</p>
+        </div>
+    </div>
+    <div class="summary-content-menu">
+        <div class="summary-content-menu-left">
+            <a class="link-picture" href="https://animene.vercel.app/anime/5114">
+                <img class="font-size-img"
+                    src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx5114-4CpuT7iWcZ37.png"></a>
+        </div>
+        <div class="summary-content-menu-center">
+            <div class="summary-content-menu-center-top">
+                <a class="top-100-anime-hot top-100-anime-hot-topic" href="https://animene.vercel.app/anime/5114">Hagane
+                    no Renkinjutsushi: FULLMETAL ALCHEMIST</a>
+            </div>
+            <div class="summary-content-menu-center-bottom">
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Action">action</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Comedy">comedy</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Drama">drama</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Sci-Fi">sci-fi</a>
+            </div>
+        </div>
+        <div class="summary-content-menu-right">
+            <p class="summary-content-menu-right-feed-back"><i class="bi bi-emoji-smile"></i>&nbsp;92%</p>
+            <p class="summary-content-menu-right-feed-back">
+                Movie<br>
+                1 episodes</p>
+            <p class="summary-content-menu-right-feed-back">
+                Winter 2021<br>
+                Finished</p>
+        </div>
+    </div>
+    <div class="summary-content-menu">
+        <div class="summary-content-menu-left">
+            <a class="link-picture" href="https://animene.vercel.app/anime/98478">
+                <img class="font-size-img"
+                    src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx98478-dF3mpSKiZkQu.jpg"></a>
+        </div>
+        <div class="summary-content-menu-center">
+            <div class="summary-content-menu-center-top">
+                <a class="top-100-anime-hot top-100-anime-hot-topic"
+                    href="https://animene.vercel.app/anime/98478">3-gatsu no Lion 2</a>
+            </div>
+            <div class="summary-content-menu-center-bottom">
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Action">action</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Comedy">comedy</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Drama">drama</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Sci-Fi">sci-fi</a>
+            </div>
+        </div>
+        <div class="summary-content-menu-right">
+            <p class="summary-content-menu-right-feed-back"><i class="bi bi-emoji-smile"></i>&nbsp;92%</p>
+            <p class="summary-content-menu-right-feed-back">
+                Movie<br>
+                1 episodes</p>
+            <p class="summary-content-menu-right-feed-back">
+                Winter 2021<br>
+                Finished</p>
+        </div>
+    </div>
+    <div class="summary-content-menu">
+        <div class="summary-content-menu-left">
+            <a class="link-picture" href="https://animene.vercel.app/anime/11061">
+                <img class="font-size-img"
+                    src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11061-sIpBprNRfzCe.png"></a>
+        </div>
+        <div class="summary-content-menu-center">
+            <div class="summary-content-menu-center-top">
+                <a class="top-100-anime-hot top-100-anime-hot-topic"
+                    href="https://animene.vercel.app/anime/11061">HUNTER×HUNTER (2011)</a>
+            </div>
+            <div class="summary-content-menu-center-bottom">
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Action">action</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Comedy">comedy</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Drama">drama</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Sci-Fi">sci-fi</a>
+            </div>
+        </div>
+        <div class="summary-content-menu-right">
+            <p class="summary-content-menu-right-feed-back"><i class="bi bi-emoji-smile"></i>&nbsp;92%</p>
+            <p class="summary-content-menu-right-feed-back">
+                Movie<br>
+                1 episodes</p>
+            <p class="summary-content-menu-right-feed-back">
+                Winter 2021<br>
+                Finished</p>
+        </div>
+    </div>
+    <div class="summary-content-menu">
+        <div class="summary-content-menu-left">
+            <a class="link-picture" href="https://animene.vercel.app/anime/21745">
+                <img class="font-size-img"
+                    src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21745-vHwC1VKoL6zf.png"></a>
+        </div>
+        <div class="summary-content-menu-center">
+            <div class="summary-content-menu-center-top">
+                <a class="top-100-anime-hot top-100-anime-hot-topic"
+                    href="https://animene.vercel.app/anime/21745">Owarimonogatari (Ge)</a>
+            </div>
+            <div class="summary-content-menu-center-bottom">
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Action">action</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Comedy">comedy</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Drama">drama</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Sci-Fi">sci-fi</a>
+            </div>
+        </div>
+        <div class="summary-content-menu-right">
+            <p class="summary-content-menu-right-feed-back"><i class="bi bi-emoji-smile"></i>&nbsp;92%</p>
+            <p class="summary-content-menu-right-feed-back">
+                Movie<br>
+                1 episodes</p>
+            <p class="summary-content-menu-right-feed-back">
+                Winter 2021<br>
+                Finished</p>
+        </div>
+    </div>
+    <div class="summary-content-menu">
+        <div class="summary-content-menu-left">
+            <a class="link-picture" href="https://animene.vercel.app/anime/9253">
+                <img class="font-size-img"
+                    src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9253-7pdcVzQSkKxT.jpg"></a>
+        </div>
+        <div class="summary-content-menu-center">
+            <div class="summary-content-menu-center-top">
+                <a class="top-100-anime-hot top-100-anime-hot-topic"
+                    href="https://animene.vercel.app/anime/9253">Steins;Gate</a>
+            </div>
+            <div class="summary-content-menu-center-bottom">
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Action">action</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Comedy">comedy</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Drama">drama</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Sci-Fi">sci-fi</a>
+            </div>
+        </div>
+        <div class="summary-content-menu-right">
+            <p class="summary-content-menu-right-feed-back"><i class="bi bi-emoji-smile"></i>&nbsp;92%</p>
+            <p class="summary-content-menu-right-feed-back">
+                Movie<br>
+                1 episodes</p>
+            <p class="summary-content-menu-right-feed-back">
+                Winter 2021<br>
+                Finished</p>
+        </div>
+    </div>
+    <div class="summary-content-menu">
+        <div class="summary-content-menu-left">
+            <a class="link-picture" href="https://animene.vercel.app/anime/15417">
+                <img class="font-size-img"
+                    src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx15417-Uc2uNdWEixwi.jpg"></a>
+        </div>
+        <div class="summary-content-menu-center">
+            <div class="summary-content-menu-center-top">
+                <a class="top-100-anime-hot top-100-anime-hot-topic"
+                    href="https://animene.vercel.app/anime/15417">Gintama': Enchousen</a>
+            </div>
+            <div class="summary-content-menu-center-bottom">
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Action">action</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Comedy">comedy</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Drama">drama</a>
+                <a class="top-100-anime-hot top-100-anime-hot-menu"
+                    href="https://animene.vercel.app/search/anime?genres=Sci-Fi">sci-fi</a>
+            </div>
+        </div>
+        <div class="summary-content-menu-right">
+            <p class="summary-content-menu-right-feed-back"><i class="bi bi-emoji-smile"></i>&nbsp;92%</p>
+            <p class="summary-content-menu-right-feed-back">
+                Movie<br>
+                1 episodes</p>
+            <p class="summary-content-menu-right-feed-back">
+                Winter 2021<br>
+                Finished</p>
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+        <table class="content-footer">
+            <tr>
+                <th class="content-footer-menu">ANIMENE</th>
+                <th class="content-footer-menu"><a class="content-footer-menu"
+                        href="https://www.instagram.com/im.dung2210/" target="_blank"><i class="bi bi-instagram"></i>
+                        Instagram</a></th>
+                <th class="content-footer-menu">Donate</th>
+                <th class="content-footer-menu">Apps</th>
+                <th class="content-footer-menu">Add Data</th>
+            </tr>
+            <tr>
+                <td class="content-footer-menu"><i class="bi bi-telephone"></i> 0522535155</td>
+                <td class="content-footer-menu"><a class="content-footer-menu"
+                        href="https://www.facebook.com/profile.php?id=100030488291704" target="_blank"><i
+                            class="bi bi-facebook"></i> Facebook</a></td>
+                <td class="content-footer-menu">AniList.co</td>
+                <td class="content-footer-menu">Site Stats</td>
+                <td class="content-footer-menu">Moderators</td>
+            </tr>
+            <tr>
+                <td class="content-footer-menu"><a class="content-footer-menu"
+                        href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank"><i
+                            class="bi bi-envelope"></i> dunghoang22102003@gmail.com</a></td>
+                <td class="content-footer-menu"><a class="content-footer-menu"
+                        href="https://www.facebook.com/profile.php?id=100067874075417" target="_blank"><i
+                            class="bi bi-facebook"></i> Facebook</a></td>
+                <td class="content-footer-menu">AniList.co</td>
+                <td class="content-footer-menu">Site Stats</td>
+                <td class="content-footer-menu">Moderators</td>
+            </tr>
+            <tr>
+                <td class="content-footer-menu"><a class="content-footer-menu" href="https://bitly.com.vn/2j6913"><i
+                            class="bi bi-house-fill" target="_blank"></i> Phu Li Citi,Ha Nam provincie</a></td>
+                <td class="content-footer-menu"><a class="content-footer-menu"
+                        href="https://www.facebook.com/profile.php?id=100067874075417" target="_blank"><i
+                            class="bi bi-facebook"></i> Facebook</a></td>
+                <td class="content-footer-menu">AniAPI</td>
+                <td class="content-footer-menu">API</td>
+                <td class="content-footer-menu">Site Map</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

@@ -1,11 +1,11 @@
-p {
-    margin: 0;
-}
-
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     margin: 0px;
     background-color: #EDF1F5;
+}
+
+p {
+    margin: 0;
 }
 
 /* menu */
@@ -102,110 +102,140 @@ div.menu-right {
     font-weight: 900;
 }
 
-/* content login */
-.content-login {
-    display: flex;
-    margin: 70px 0px 0px 0px;
-}
-
-.content-login-left {
-    flex: 3;
-}
-
-/* content login center */
-.content-login-center {
-    flex: 2;
-    background-color: white;
-    height: 570px;
-    border-radius: 5px;
-}
-
-/* title top */
-.title-top {
-    text-align: center;
-    color: #2B2D42;
-    margin: 30px 0px 90px 0px;
-    font-size: 25px;
-    font-weight: 900;
-}
-
-.email {
-    margin: 30px 50px 0px 50px;
-    font-weight: 900;
-}
-
-.search-email-pass-word {
-    margin: 0px 50px 25px 50px;
+/* search bar */
+.search {
+    margin: 90px 190px;
 }
 
 .search-bar {
-    width: 285px;
-    height: 35px;
-    border-radius: 5px;
-    border: none;
-    background-color: #EDF1F5;
+    border: 0px solid black;
+    padding: 7px 10px;
+    border-radius: 3px;
+    color: #18c1f0;
+    width: 90%;
 }
 
-.password {
-    margin: 30px 50px 0px 50px;
+.search-on-search-bar {
+    padding: 0px 0px 5px 1px;
+    width: 200px;
     font-weight: 900;
 }
 
-/* title bottom */
-.title-bottom {
-    background-color: #18c1f0;
-    width: 285px;
-    height: 35px;
-    border-radius: 5px;
-    text-align: center;
-    margin: 30px 50px 5px 50px;
-    color: white;
-    padding: 5px 0px 0px 0px;
-    font-weight: 900;
-    font-size: 15px;
-    cursor: pointer;
+.bi-credit-card-fill {
+    margin: 0px 0px 0px 55px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 3px;
 }
 
-/* restart password */
-.restart-password {
-    margin: 0px 0px 100px 225px;
+.bi-credit-card-fill:hover {
+    color: #18c1f0;
+}
+
+/* boottrap row */
+.menu-content {
+    margin-right: 0;
+    margin-left: 0;
+    justify-content: center;
+    padding: 0px 130px;
+}
+
+img {
+    width: 200px;
+    height: 293px;
+    border-radius: 5px;
+}
+
+.content:hover {
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+}
+
+.content {
+    color: rgb(131, 131, 131);
+}
+
+.fix {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0px 0px 0px 30px;
+}
+#name-movie{
     font-size: 14px;
-
+}
+#name-movie {
+    word-wrap: break-word;
+    width: 200px;
 }
 
-.link-restart-password {
-    color: #2B2D42;
-
+.head-menu-content {
+    padding: 10px 0px 0px 190px;
+    width: 700px;
+    margin: 0px;
+    font-size: 22px;
 }
 
-.link-restart-password:hover {
+/*  top 100 anime */
+.summary-content-menu {
+    display: flex;
+    margin: 40px 170px 0 190px;
+    background-color: white;
+    padding: 10px;
+}
+
+.summary-content-menu-left {
+    flex: 1;
+}
+
+img.font-size-img {
+    width: 40px;
+    height: 60px;
+    margin: 0 10px 0 0;
+}
+
+.summary-content-menu-center {
+    flex: 17;
+}
+
+.summary-content-menu-center-top {
+    margin: 0 0 5px 0;
+}
+
+.top-100-anime-hot-topic {
+    color: black;
+}
+
+.top-100-anime-hot-topic:hover {
+    color: black;
     text-decoration: none;
-    color: #2B2D42;
 }
 
-/* support */
-.support {
-    margin: 0px 50px 0px 60px;
+.top-100-anime-hot-menu {
+    color: white;
+    border-radius: 10px;
+    background-color: #18c1f0;
+    padding: 0 10px;
+    font-size: small;
+    margin: 0 5px;
 }
 
-.support {
-    font-size: 15px;
-}
-
-.sign-up-now {
-    color: #18c1f0;
-}
-
-.sign-up-now:hover {
+.top-100-anime-hot-menu:hover {
+    color: white;
     text-decoration: none;
-    color: #18c1f0;
-
 }
 
-/* content login left */
+.summary-content-menu-right {
+    flex: 10;
+    display: flex;
+}
 
-.content-login-right {
-    flex: 3;
+.summary-content-menu-right-feed-back {
+    margin: 0 65px 0 0;
+    align-self: center;
+}
+
+.bi-emoji-smile {
+    color: #30f4b6;
 }
 
 /* content-footer */

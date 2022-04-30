@@ -1,3 +1,4 @@
+/*  body */
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     margin: 0px;
@@ -27,16 +28,21 @@ div.content-menu-left {
     cursor: pointer;
 }
 
-p.animene-white {
+.animene-white {
     font-size: 20px;
     color: white;
     align-self: center;
+    font-weight: 600;
+    letter-spacing: 5px;
+
 }
 
-p.animene-blue {
+.animene-blue {
     font-size: 20px;
     color: #18c1f0;
     align-self: center;
+    font-weight: 600;
+    letter-spacing: 5px;
 }
 
 /* menu top center */
@@ -44,6 +50,9 @@ div.menu-center {
     display: flex;
     color: rgb(255, 255, 255);
     flex: 2;
+    font-weight: 900;
+    font-size: 15px;
+    letter-spacing: 1px;
 }
 
 .menu-center .content-menu-center,
@@ -76,20 +85,22 @@ div.menu-right {
 
 .log-in {
     border: 2px solid #18c1f0;
-    border-radius: 3px;
+    border-radius: 5px;
     color: white;
-    padding: 10px 20px;
+    padding: 8px 25px;
     margin: 10px;
     align-self: center;
+    font-weight: 900;
 }
 
 .sign-up {
-    border-radius: 3px;
+    border-radius: 5px;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 23px;
     margin: 10px;
     background-color: #18c1f0;
     align-self: center;
+    font-weight: 900;
 }
 
 /* search bar */
@@ -108,6 +119,7 @@ div.menu-right {
 .search-on-search-bar {
     padding: 0px 0px 5px 1px;
     width: 200px;
+    font-weight: 900;
 }
 
 .bi-credit-card-fill {
