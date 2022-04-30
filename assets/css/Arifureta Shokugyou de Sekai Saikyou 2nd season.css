@@ -300,6 +300,12 @@ div.menu-right {
     text-decoration: none;
 }
 
+/* video-youtube */
+.video-youtube {
+    width: 950px;
+    height: 530px;
+}
+
 /* content-footer */
 .footer {
     background-color: #2B2D42;
@@ -328,9 +334,5 @@ td {
 
 .content-footer-menu {
     color: white;
-}
-/* video-youtube */
-.video-youtube {
-    width:950px;
-    height:530px;
+    font-weight: 900;
 }

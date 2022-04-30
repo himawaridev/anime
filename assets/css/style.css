@@ -161,19 +161,22 @@ img {
     padding-left: 0px;
     margin: 0px 0px 0px 30px;
 }
-#name-movie{
+
+#name-movie {
     font-size: 14px;
 }
+
 #name-movie {
     word-wrap: break-word;
     width: 200px;
 }
 
 .head-menu-content {
-    padding: 10px 0px 0px 190px;
+    padding: 30px 0px 10px 190px;
     width: 700px;
     margin: 0px;
-    font-size: 22px;
+    font-size: 20px;
+    font-weight:900;
 }
 
 /*  top 100 anime */
@@ -192,6 +195,7 @@ img.font-size-img {
     width: 40px;
     height: 60px;
     margin: 0 10px 0 0;
+    border-radius:0px;
 }
 
 .summary-content-menu-center {
@@ -260,11 +264,13 @@ td {
     padding: 10px;
 }
 
+.content-footer-menu {
+    color: white;
+    font-weight: 900;
+    
+}
+
 .content-footer-menu:hover {
     color: #18c1f0;
     text-decoration: none;
-}
-
-.content-footer-menu {
-    color: white;
 }
