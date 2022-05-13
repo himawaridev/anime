@@ -123,14 +123,14 @@ div.menu-right {
     font-weight: 900;
 }
 
-.bi-credit-card-fill {
+.bi-columns-gap {
     margin: 0px 0px 0px 0px;
     padding: 10px;
     background-color: white;
     border-radius: 3px;
 }
 
-.bi-credit-card-fill:hover {
+.bi-columns-gap:hover {
     color: #18c1f0;
 }
 

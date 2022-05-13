@@ -48,28 +48,32 @@
     <div class="search">
         <p class="search-on-search-bar">Search</p>
         <input type="search" class="search-bar">
-        <i class="bi bi-credit-card-fill"></i>
+        <i class="bi bi-columns-gap"></i>
     </div>
-    <!-- tools -->
 
-    <div class="tools">
-        <div class="tools-left">
-
-        </div>
-        <div class="tools-right">
-            <div class="dropdown tools-right-left">
-                <span class="dropdown-top">
-                    <p class="id-name-tools">Average Score</p>
-                    <i class="bi bi-chevron-down"></i>
-                </span>
-                <div class="dropdown-content">
-                    <a href="https://animene.vercel.app/search/anime?sort=TITLE_ROMAJI">Title</a>
+    <!-- drop down -->
+    <div class="dropdown">
+        <div class="dropdown-left"></div>
+        <div class="dropdown-right">
+            <div class="dropdown-right-all">
+                <button class="dropdown-right-all-content" data-toggle="dropdown">Average Score
+                    <i class="bi bi-chevron-down"></i></button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item dropdown-item-name" href="#">Title</a>
+                    <a class="dropdown-item dropdown-item-name" href="#">Popularity</a>
+                    <a class="dropdown-item dropdown-item-name" href="#">Average Score</a>
+                    <a class="dropdown-item dropdown-item-name" href="#">Trending</a>
+                    <a class="dropdown-item dropdown-item-name" href="#">Favourites</a>
+                    <a class="dropdown-item dropdown-item-name" href="#">Date Added</a>
+                    <a class="dropdown-item dropdown-item-name" href="#">Release Date</a>
                 </div>
             </div>
-            <div class="tools-right-right">
-                <i class="bi bi-grid-1x2-fill"></i>
-                <i class="bi bi-grid-fill"></i>
-                <i class="bi bi-grid-3x3-gap-fill"></i>
+            <div class="dropdown-left-all">
+                <div class="dropdown-left-all-bi">
+                    <i class="bi bi-grid-1x2"></i>
+                    <i class="bi bi-grid-3x2"></i>
+                    <i class="bi bi-grid-3x3"></i>
+                </div>
             </div>
         </div>
     </div>
