@@ -52,7 +52,7 @@ div.menu-center {
     flex: 2;
     font-weight: 900;
     font-size: 15px;
-    letter-spacing: 1px;
+    letter-spacing: 0.8px;
 }
 
 .menu-center .content-menu-center,
@@ -85,18 +85,18 @@ div.menu-right {
 
 .log-in {
     border: 2px solid #18c1f0;
-    border-radius: 5px;
+    border-radius: 3px;
     color: white;
-    padding: 8px 25px;
+    padding: 6px 22px;
     margin: 10px;
     align-self: center;
     font-weight: 900;
 }
 
 .sign-up {
-    border-radius: 5px;
+    border-radius: 3px;
     color: white;
-    padding: 10px 23px;
+    padding: 8px 22px;
     margin: 10px;
     background-color: #18c1f0;
     align-self: center;
@@ -105,21 +105,34 @@ div.menu-right {
 
 /* search bar */
 .search {
-    margin: 90px 190px;
+    margin: 70px 170px 20px 190px;
 }
 
 .search-bar {
-    border: 0px solid black;
-    padding: 7px 10px;
+    border:none;
     border-radius: 3px;
+    height:40px;
+    width:1040px;
+    padding:0px;
+    margin:0px 20px 0px 0px;
     color: #18c1f0;
-    width: 90%;
 }
 
 .search-on-search-bar {
     padding: 0px 0px 5px 1px;
     width: 200px;
     font-weight: 900;
+}
+
+.bi-credit-card-fill {
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.bi-credit-card-fill:hover {
+    color: #18c1f0;
 }
 
 /* icon credit */
