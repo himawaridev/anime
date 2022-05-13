@@ -111,9 +111,8 @@ div.menu-right {
 .search-bar {
     border:none;
     border-radius: 3px;
-    height:40px;
     width:1040px;
-    padding:0px;
+    padding:7px 10px 7px 10px;
     margin:0px 78px 0px 0px;
     color: #18c1f0;
 }
