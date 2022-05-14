@@ -3,6 +3,7 @@ body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     margin: 0px;
     background-color: #EDF1F5;
+    overflow: scroll;
 }
 
 p {
@@ -153,7 +154,7 @@ div.menu-right {
 
 /* dropdown right all */
 .dropdown-right-all-content {
-    flex:1;
+    flex: 1;
     background-color: #EDF1F5;
     border: none;
     border: 1px solid #EDF1F5;
@@ -166,7 +167,7 @@ div.menu-right {
 .dropdown-right-all-content:focus {
     border: 1px solid black;
     border-radius: 3px;
-    color:rgb(83, 81, 81);
+    color: rgb(83, 81, 81);
 }
 
 /* bi chevron down */
@@ -192,29 +193,127 @@ div.menu-right {
 
 /* dropdown left all */
 .dropdown-left-all {
-    flex:1;
-    padding:5px 0px 5px 10px;
+    flex: 1;
+    padding: 5px 0px 5px 10px;
     margin: 0px 0px 0px 20px;
-    width:100px;
+    width: 100px;
 }
+
 .dropdown-left-all-bi {
     display: flex;
 }
-.bi-grid-1x2{
-    padding:0px 5px 0px 5px;
-    flex:1;
+
+/* -------------------------------------------------------- */
+.bi-grid-1x2 {
+    padding: 0px 5px 0px 5px;
+    flex: 1;
     align-self: center;
     color: rgb(131, 131, 131);
 }
+
 .bi-grid {
-    padding:0px 5px 0px 5px;
+    padding: 0px 5px 0px 5px;
     align-self: center;
-    flex:1;
+    flex: 1;
     color: rgb(131, 131, 131);
 }
+
 .bi-grid-3x3 {
-    padding:0px 5px 0px 5px;
-    flex:1;
+    padding: 0px 5px 0px 5px;
+    flex: 1;
     align-self: center;
     color: rgb(131, 131, 131);
+}
+
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+/* menu-between-2-column */
+.menu-between-2-column {
+    display: flex;
+    margin: 0px 170px 0px 155px;
+}
+
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+/* menu-between-2-column-left-all */
+.menu-between-2-column-left-all {
+    display: flex;
+    flex: 1;
+    background-color: white;
+    margin: 35px 0px 0px 35px;
+    height: 265px;
+}
+
+/* -------------------------------------------------------- */
+/* menu-between-2-column-left-all-left */
+.menu-between-2-column-left-all-left {
+    flex: 1;
+}
+
+/* -------------------------------------------------------- */
+/* menu-between-2-column-left-all-right */
+.menu-between-2-column-left-all-right {
+    flex: 2;
+    display: flex;
+    height: 80px;
+    padding: 15px 15px 15px 15px;
+    color: rgb(131, 131, 131);
+}
+
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+/* menu-between-2-column-right-all */
+.menu-between-2-column-right-all {
+    display: flex;
+    flex: 1;
+    background-color: white;
+    margin: 35px 0px 0px 35px;
+    height: 265px;
+}
+
+/* -------------------------------------------------------- */
+/* menu-between-2-column-right-all-left */
+.menu-between-2-column-right-all-left {
+    flex: 1;
+}
+
+
+/* -------------------------------------------------------- */
+/* menu-between-2-column-right-all-right */
+.menu-between-2-column-right-all-right {
+    flex: 2;
+    height: 80px;
+    padding: 15px 15px 15px 15px;
+    color: rgb(131, 131, 131);
+}
+
+/* menu-between-2-column-right-all-right-top */
+.menu-between-2-column-right-all-right-top {
+    display: flex;
+}
+
+.id-name-movie {
+    flex: 3;
+
+}
+
+.fake-between {
+    flex: 3;
+}
+
+.bi-emoji-expressionless {
+    flex: 1;
+    align-self: center;
+}
+
+/* menu-between-2-column-right-all-right-center */
+/* menu-between-2-column-right-all-right-bottom */
+/* -------------------------------------------------------- */
+
+
+/* -------------------------------------------------------- */
+/* picture */
+.picture {
+    height: 265px;
 }
