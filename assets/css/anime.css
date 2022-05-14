@@ -219,8 +219,13 @@ div.menu-right {
     align-self: center;
     color: rgb(131, 131, 131);
 }
+#test2 {
+    display: none;
+}
 
-
+.clickable {
+    cursor: pointer;
+}
 
 
 
