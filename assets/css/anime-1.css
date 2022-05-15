@@ -255,11 +255,24 @@ div.menu-right {
 /* menu-between-2-column-left-all-right */
 .menu-between-2-column-left-all-right {
     flex: 2;
-    display: flex;
     height: 80px;
     padding: 15px 15px 15px 15px;
     color: rgb(131, 131, 131);
 }
+
+/* menu-between-2-column-left-all-right-top */
+.menu-between-2-column-left-all-right-top {
+    display: flex;
+}
+
+
+
+/* menu-between-2-column-left-all-right-center */
+/* menu-between-2-column-left-all-right-bottom */
+
+
+
+
 
 /* -------------------------------------------------------- */
 /* -------------------------------------------------------- */
