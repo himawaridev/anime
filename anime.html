@@ -8,6 +8,7 @@
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/anime.css">
+    <link rel="stylesheet" href="javascrip/anime.js">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -18,9 +19,9 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 </head>
-<!-- menu -->
-
 <body>
+    <!---------------------------------------------------------------------------------------------------------------------------->
+    <!-- menu -->
     <div class="menu">
         <div class="menu-left">
             <div class="content-menu-left">
@@ -45,12 +46,14 @@
             <a class="content-menu-right sign-up" href="https://animene.vercel.app/signup">Sign Up</a>
         </div>
     </div>
+    <!---------------------------------------------------------------------------------------------------------------------------->
+    <!-- search -->
     <div class="search">
         <p class="search-on-search-bar">Search</p>
         <input type="search" class="search-bar">
         <i class="bi bi-columns-gap"></i>
     </div>
-
+    <!---------------------------------------------------------------------------------------------------------------------------->
     <!-- drop down -->
     <div class="dropdown">
         <div class="dropdown-left"></div>
@@ -72,7 +75,7 @@
                 <div class="dropdown-left-all-bi">
                     <i class="bi bi-grid-1x2 clickable" onclick="click1()"></i>
                     <i class="bi bi-grid clickable" onclick="click2()"></i>
-                    <i class="bi bi-grid-3x3 clickable"></i>
+                    <i class="bi bi-grid-3x3 clickable" onclick="click3()"></i>
                 </div>
             </div>
         </div>
@@ -91,43 +94,11 @@
 
 
 
-    <!-- row and menu content -->
-    <div id="test2" class="clickable">
-        day la test2
-    </div>
-    <div id="test1">
-        <div class="row menu-content">
-            <div class="col-xl-2 fix"><a class="content" href="one-piece.html">
-                    <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21-tXMN3Y20PIL9.jpg"
-                        alt="error">
-                    <p id="name-movie">One Piece</p>
-                </a>
-            </div>
-            <div class="col-xl-2 fix"><a class="content" href="https://animene.vercel.app/anime/112323">
-                    <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx112323-C6nlP84x8jH8.png"
-                        alt="error">
-                    <p id="name-movie">Arifureta Shokugyou de Sekai Saikyou 2nd season</p>
-                </a>
-            </div>
-            <div class="col-xl-2 fix"><a class="content" href="https://animene.vercel.app/anime/132405">
-                    <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx132405-Iy6Lze5SOme8.jpg"
-                        alt="error">
-                    <p id="name-movie">Sono Bisque Doll wa Koi wo Suru</p>
-                </a>
-            </div>
-            <div class="col-xl-2 fix"><a class="content" href="https://animene.vercel.app/anime/113717">
-                    <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113717-fkqTxEqqga61.jpg"
-                        alt="error">
-                    <p id="name-movie">Ousama Ranking</p>
-                </a>
-            </div>
-            <div class="col-xl-2 fix"><a class="content" href="https://animene.vercel.app/anime/125124">
-                    <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx125124-rjv9azFLjEG4.jpg"
-                        alt="error">
-                    <p id="name-movie">Rikei ga Koi ni Ochita no de Shoumei shitemita. Heart</p>
-                </a>
-            </div>
-        </div>
+    
+    <!---------------------------------------------------------------------------------------------------------------------------->
+    <!-- click 1 -->
+    <div id="test-1">
+        <!---------------------------------------------------------------------------------------------------------------------------->
         <!-- row and menu content -->
         <div class="row menu-content">
             <div class="col-xl-2 fix"><a class="content" href="one-piece.html">
@@ -161,6 +132,41 @@
                 </a>
             </div>
         </div>
+        <!---------------------------------------------------------------------------------------------------------------------------->
+        <!-- row and menu content -->
+        <div class="row menu-content">
+            <div class="col-xl-2 fix"><a class="content" href="one-piece.html">
+                    <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21-tXMN3Y20PIL9.jpg"
+                        alt="error">
+                    <p id="name-movie">One Piece</p>
+                </a>
+            </div>
+            <div class="col-xl-2 fix"><a class="content" href="https://animene.vercel.app/anime/112323">
+                    <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx112323-C6nlP84x8jH8.png"
+                        alt="error">
+                    <p id="name-movie">Arifureta Shokugyou de Sekai Saikyou 2nd season</p>
+                </a>
+            </div>
+            <div class="col-xl-2 fix"><a class="content" href="https://animene.vercel.app/anime/132405">
+                    <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx132405-Iy6Lze5SOme8.jpg"
+                        alt="error">
+                    <p id="name-movie">Sono Bisque Doll wa Koi wo Suru</p>
+                </a>
+            </div>
+            <div class="col-xl-2 fix"><a class="content" href="https://animene.vercel.app/anime/113717">
+                    <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113717-fkqTxEqqga61.jpg"
+                        alt="error">
+                    <p id="name-movie">Ousama Ranking</p>
+                </a>
+            </div>
+            <div class="col-xl-2 fix"><a class="content" href="https://animene.vercel.app/anime/125124">
+                    <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx125124-rjv9azFLjEG4.jpg"
+                        alt="error">
+                    <p id="name-movie">Rikei ga Koi ni Ochita no de Shoumei shitemita. Heart</p>
+                </a>
+            </div>
+        </div>
+        <!---------------------------------------------------------------------------------------------------------------------------->
         <!-- row and menu content -->
         <div class="row menu-content">
             <div class="col-xl-2 fix"><a class="content" href="one-piece.html">
@@ -195,6 +201,27 @@
             </div>
         </div>
     </div>
+    <!---------------------------------------------------------------------------------------------------------------------------->
+    <!-- click 2 -->
+    <div id="test-2">
+        
+    </div>
+    <!---------------------------------------------------------------------------------------------------------------------------->
+    <!-- click 3 -->
+    <div id="test-3">
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!---------------------------------------------------------------------------------------------------------------------------->
     <!-- footer -->
     <div class="footer">
         <table class="content-footer">
@@ -239,26 +266,6 @@
             </tr>
         </table>
     </div>
-    <script>
-        var is_shown_filter = false
-        function click1111() {
-            document.getElementById('test1').style.display = 'block'
-            document.getElementById('test2').style.display = 'none'
-        }
-        function click2() {
-            document.getElementById('test1').style.display = 'none'
-            document.getElementById('test2').style.display = 'block'
-        }
-        function click1() {
-            if (!is_shown_filter) {
-                document.getElementById('test2').style.display = 'block'
-                is_shown_filter = true
-            } else {
-                document.getElementById('test2').style.display = 'none'
-                is_shown_filter = false
-            }
-        }
-    </script>
 </body>
 
 </html>
