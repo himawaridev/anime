@@ -1,12 +1,13 @@
-p {
-    margin: 0;
-}
-
+/*  body */
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     margin: 0px;
     background-color: #EDF1F5;
     overflow: scroll;
+}
+
+p {
+    margin: 0;
 }
 
 /* menu */
@@ -52,7 +53,7 @@ div.menu-center {
     flex: 2;
     font-weight: 900;
     font-size: 15px;
-    letter-spacing: 1px;
+    letter-spacing: 0.8px;
 }
 
 .menu-center .content-menu-center,
@@ -85,18 +86,18 @@ div.menu-right {
 
 .log-in {
     border: 2px solid #18c1f0;
-    border-radius: 5px;
+    border-radius: 3px;
     color: white;
-    padding: 8px 25px;
+    padding: 6px 22px;
     margin: 10px;
     align-self: center;
     font-weight: 900;
 }
 
 .sign-up {
-    border-radius: 5px;
+    border-radius: 3px;
     color: white;
-    padding: 10px 23px;
+    padding: 8px 22px;
     margin: 10px;
     background-color: #18c1f0;
     align-self: center;
