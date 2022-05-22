@@ -473,9 +473,6 @@ div.menu-right {
     text-decoration: none;
 }
 
-
-
-
 /* -------------------------------------------------------- */
 /* picture-click-2 */
 .picture-click-2 {
@@ -513,7 +510,70 @@ div.menu-right {
     color: rgb(127, 214, 91);
     font-weight: 500;
 }
+/* --------------- click-3 --------------*/
+/*  top 100 anime */
+.summary-content-menu {
+    display: flex;
+    margin: 40px 170px 0 190px;
+    background-color: white;
+    padding: 10px;
+}
 
+.summary-content-menu-left {
+    flex: 1;
+}
+
+img.font-size-img {
+    width: 40px;
+    height: 60px;
+    margin: 0 10px 0 0;
+    border-radius:0px;
+}
+
+.summary-content-menu-center {
+    flex: 17;
+}
+
+.summary-content-menu-center-top {
+    margin: 0 0 5px 0;
+}
+
+.top-100-anime-hot-topic {
+    color: black;
+}
+
+.top-100-anime-hot-topic:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.top-100-anime-hot-menu {
+    color: white;
+    border-radius: 10px;
+    background-color: #18c1f0;
+    padding: 0 10px;
+    font-size: small;
+    margin: 0 5px;
+}
+
+.top-100-anime-hot-menu:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.summary-content-menu-right {
+    flex: 10;
+    display: flex;
+}
+
+.summary-content-menu-right-feed-back {
+    margin: 0 65px 0 0;
+    align-self: center;
+}
+
+.bi-emoji-smile {
+    color: #30f4b6;
+}
 /* ------------------- footer ------------------- */
 /* content-footer */
 .footer {
