@@ -1,0 +1,1 @@
+SlardarLite.plugin.resource=function(){"use strict";return function(r){var n=r.config.plugins.resource,t=void 0===n||n;return(0,r.s)(function(n){return t&&(e=function(r){return r.forEach(function(r){return n([8,r])})},r="resource",new PerformanceObserver(function(r,n){return e(r.getEntries(),n)}).observe({type:r,buffered:!0}));var e,r})}}();

@@ -13,3 +13,5 @@ function click3() {
     document.getElementById('test-2').style.display = 'none'
     document.getElementById('test-3').style.display = 'block'
 }
+
+click1()

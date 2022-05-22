@@ -136,25 +136,6 @@ div.menu-right {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* boottrap row */
 .menu-content {
     margin-right: 0;
@@ -166,7 +147,8 @@ div.menu-right {
 img {
     width: 200px;
     height: 293px;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .content:hover {

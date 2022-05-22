@@ -243,7 +243,8 @@ div.menu-right {
 .picture-click-1{
     width: 200px;
     height: 293px;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .content:hover {
