@@ -1,0 +1,48 @@
+/* menu-top */
+.menu-top {
+    display: flex;
+    height: 60px;
+    background-color: #2B2D42;
+}
+
+/* menu-top-right */
+.menu-top-right {
+    display: flex;
+    flex: 1;
+}
+
+.menu-top-right-icon {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-self: center;
+}
+
+.menu-top-right-icon .bi {
+    color: white;
+    font-size: 20px;
+}
+
+/* menu-top-center */
+.menu-top-center {
+    display: flex;
+    flex: 2;
+}
+
+/* menu-top-left */
+.menu-top-left {
+    display: flex;
+    flex: 2;
+}
+
+.menu-top-left-icon {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-self: center;
+}
+
+.menu-top-left-icon .bi {
+    color: white;
+    font-size: 20px;
+}
