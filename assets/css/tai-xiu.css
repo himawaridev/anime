@@ -46,3 +46,25 @@
     color: white;
     font-size: 20px;
 }
+/* -- */
+.light {
+    display:flex;
+}
+#myImage {
+    align-self: center;
+}
+.the-light {
+    flex:1;
+    display:flex;
+    align-self: center;
+}
+.the-light-on  {
+    border: 2px solid black;
+    width:100px;
+    height:100px;
+}
+.the-light-off {
+    border: 2px solid black;
+    width:100px;
+    height:100px;
+}
